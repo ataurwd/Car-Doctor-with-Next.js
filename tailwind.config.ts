@@ -12,6 +12,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        main: "#FF3811",
+        pragrapText: "#737373"
       },
     },
   },

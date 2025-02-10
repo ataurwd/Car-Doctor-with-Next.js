@@ -59,16 +59,16 @@ const Navber = () => {
           </ul>
         </div>
         <Link href={"/"} className="">
-          <Image src={"/assets/logo.svg"} width={50} height={10} />
+          <Image alt="logo" src={"/assets/logo.svg"} width={50} height={10} />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-xl font-semibold space-x-7">
+        <ul className="menu menu-horizontal px-1 font-semibold space-x-7">
           {navMenu()}
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn text-main text-md">Appointment</a>
       </div>
     </div>
   );
