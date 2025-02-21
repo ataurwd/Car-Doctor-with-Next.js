@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Services = async () => {
-  const serviceCollections = dbConnect("services");
+  const serviceCollections = dbConnect("product");
   const data = await serviceCollections.find({}).toArray();
   return (
     <div className="px-20 my-16">

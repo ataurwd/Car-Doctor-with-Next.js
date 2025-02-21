@@ -8,7 +8,7 @@ const ServiceDetails = async ({ params }) => {
   const p = await params;
 
   // get data from the database
-  const serviceCollections = dbConnect("services");
+  const serviceCollections = dbConnect("product");
   const data = await serviceCollections.findOne({ _id: new ObjectId(p.id) });
 
   const servicesData = [

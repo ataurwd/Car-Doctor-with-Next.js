@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Button } from "./ui/button";
 
 const Navber = () => {
   const navMenu = () => {
@@ -67,8 +68,13 @@ const Navber = () => {
           {navMenu()}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn text-main text-md">Appointment</a>
+      <div className="navbar-end space-x-3">
+        <Link href={"/login"}>
+          <Button variant={"destructive"}>Login</Button>
+        </Link>
+        <Link href={"/register"}>
+          <Button>Register</Button>
+        </Link>
       </div>
     </div>
   );
