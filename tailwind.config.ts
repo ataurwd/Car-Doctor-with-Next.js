@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        text: "#FF3811",
         foreground: "var(--foreground)",
         main: "#FF3811",
         pragrapText: "#737373"
